@@ -7,7 +7,3 @@ import (
 func MyOS()string{
 	return runtime.GOOS;
 }
-//this function returns the architecture of the system
-func MyARCH()string{
-	return runtime.GOARCH;
-}

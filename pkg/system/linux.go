@@ -3,7 +3,8 @@ package system
 import (
 	"fmt"
 
-	"github.com/theGOURL/go_url/pkg/system/browser"
+	"github.com/theGOURL/OS_Analyzer/analyst"
+	"github.com/theGOURL/go_url/pkg/web/browser"
 	"github.com/theGOURL/go_url/pkg/system/commands"
 	"github.com/theGOURL/go_url/pkg/urls"
 )
@@ -12,6 +13,9 @@ import (
 func LinuxOS() {
 	command := MyCommand()
 	switch command {
+	case "man":
+		fmt.Println(``)
+		analyst.OSAnalyzer()
 	case "ls":
 		commands.Execute("ls")
 	case "i":

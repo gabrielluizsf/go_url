@@ -1,6 +1,9 @@
 package analyzer
 
-import "fmt";
+import (
+	"fmt"
+	"runtime"
+);
 //this function is a systems architecture analyst
 func ARCH_ANALYZER(){
 	switch MyARCH(){
@@ -12,4 +15,8 @@ func ARCH_ANALYZER(){
 		fmt.Println("ARCH UNDEFINIED")
 
 }
+}
+//this function returns the architecture of the system
+func MyARCH()string{
+	return runtime.GOARCH;
 }
