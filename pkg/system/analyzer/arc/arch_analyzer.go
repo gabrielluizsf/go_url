@@ -1,4 +1,4 @@
-package analyzer
+package arc
 
 import (
 	"fmt"
