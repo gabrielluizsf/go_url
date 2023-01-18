@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/theGOURL/go_url/pkg/system/analyzer"
+	"github.com/theGOURL/OS_Analyzer/analyst"
 	"github.com/theGOURL/go_url/pkg/version"
 )
 
@@ -10,6 +10,6 @@ import (
 // license that can be found in the LICENSE file.
 
 func main() {
-	version.PrintVersion()
-	analyzer.OSAnalyzer()
+	version.PrintVersion();
+  	analyst.OSAnalyzer();
 }
