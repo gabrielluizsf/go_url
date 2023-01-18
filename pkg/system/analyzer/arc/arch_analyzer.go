@@ -1,4 +1,4 @@
-package arc
+package arch_analyst
 
 import (
 	"fmt"

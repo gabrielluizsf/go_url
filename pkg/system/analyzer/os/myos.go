@@ -1,4 +1,4 @@
-package os
+package os_analyst
 
 import (
 	"runtime"
